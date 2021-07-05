@@ -47,8 +47,37 @@ html{
     color: white;
 }
 
+/* Feature text */
+.featured-text{
+    color: #ffbe00;
+}
+
+/* Normal Weight text */
+.font-weight-light { font-weight: 200; }
+.font-weight-normal { font-weight: normal; }
+.font-weight-extrabold { font-weight: 800; }
+
 /* Text alignment */
 .text-left    {text-align: left;}
 .text-center  {text-align: center;}
 .text-right   {text-align: right;}
 
+/* Viewport Height */
+.tall-80  {min-height: 80vh;}
+.tall-90  {min-height: 90vh;}
+.tall-100  {min-height: 100vh;}
+
+
+
+/* ------------------------------------------ Header Styles */
+
+header{
+    background-image: url(/images/thesleepco4.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+header h3{
+   font-size: 5.5rem; 
+   line-height: 1;
+}
