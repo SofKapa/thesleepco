@@ -40,6 +40,7 @@ html{
 /* Padding */
 .padded     {padding: 5%;}
 .padded-sm  {padding: 1rem;}
+.padded-lg  {padding: 10%;}
 
 /* Background Color */
 .bg-dark{
@@ -84,7 +85,23 @@ p:last-child{
 
 /* Text Size */
 .small-text {font-size: 1.5rem;}
+.medium-text{
+    font-size: 2rem;
+    line-height: 1;
+}
 .big-text   {font-size: 4.5rem;}
+
+/* Special Text */
+.subtitle{
+    font-size: 1.2rem;
+    color: rgb(120,120,125);
+}
+.quote-icon{
+    font-size: 6rem;
+    display: inline-block;
+    color: rgb(120,120,125);
+    line-height: 1,1;
+}
 
 /* Normal Weight text */
 .font-weight-light { font-weight: 200; }
@@ -95,6 +112,7 @@ p:last-child{
 .text-left    {text-align: left;}
 .text-center  {text-align: center;}
 .text-right   {text-align: right;}
+
 
 
 
