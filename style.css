@@ -64,6 +64,10 @@ h2{
     margin-bottom: 1rem;
 }
 
+h3{
+    line-height: 1;
+}
+
 p{
     font-weight: 200;
     line-height: 1.5;
@@ -74,10 +78,13 @@ p:last-child{
     margin-bottom: 0;
 }
 
-/* Feature text */
-.featured-text{
-    color: #ffbe00;
-}
+/* Featured text */
+.featured-text {color: #ffbe00;}
+.white-text    {color: white;}  
+
+/* Text Size */
+.small-text {font-size: 1.5rem;}
+.big-text   {font-size: 4.5rem;}
 
 /* Normal Weight text */
 .font-weight-light { font-weight: 200; }
@@ -115,6 +122,11 @@ header h3{
 .bg-pug{
     background-image: url(/images/thesleepco1.jpg);
     background-position: 50% 35%;
+}
+
+.bg-pillow{
+    background-image: url(/images/thesleepco2.jpg);
+    background-position: 50% 57%;
 }
 
 
