@@ -8,20 +8,15 @@
 
 /* --------------------Temporary styles for structural html */
 
-*{
+/* *{
     padding: 0.5rem;
     border: 2px solid rgb(240,240,240)
-}
+} */
 
-body{
-    border: none;
-    font-family: 'Catamaran', sans-serif;
-    color: #192837;
-}
 
-html{
+/* html{
     border: none;
-}
+} */
 
 
 
@@ -36,6 +31,13 @@ html{
 
 
 /* ----------------------Universal Styles & Utility Classes */
+
+/* Body Styling */
+body{
+    border: none;
+    font-family: 'Catamaran', sans-serif;
+    color: #192837;
+}
 
 /* Padding */
 .padded     {padding: 5%;}
@@ -79,6 +81,16 @@ p:last-child{
     margin-bottom: 0;
 }
 
+a{
+    color: inherit;
+    text-decoration: none;
+    border-bottom: 1px solid;
+}
+
+a:hover{
+    color: #ffbe00;
+}
+
 /* Featured text */
 .featured-text {color: #ffbe00;}
 .white-text    {color: white;}  
@@ -116,7 +128,7 @@ p:last-child{
 
 
 
-/* ------------------------------------------ Header Styles */
+/* --------------------------------- Header & Footer Styles */
 
 header{
     background-image: url(/images/thesleepco4.jpg);
@@ -129,6 +141,9 @@ header h3{
    line-height: 1;
 }
 
+footer a{
+    border: none;
+}
 
 
 /* --------------------------------------- Background Images*/
