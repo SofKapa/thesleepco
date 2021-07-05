@@ -25,7 +25,7 @@ html{
 
 
 
-/*-------------------- Image Styles */
+/*-------------------------------------------- Image Styles */
 
 .bg-image{
     background-image: url('/images/thesleepco1.jpg');
@@ -37,10 +37,18 @@ html{
 
 /* ----------------------Universal Styles & Utility Classes */
 
-.padded{padding: 5%;}
-.padded-sm{padding: 1rem;}
+/* Padding */
+.padded     {padding: 5%;}
+.padded-sm  {padding: 1rem;}
 
+/* Background Color */
 .bg-dark{
     background-color:#192837;
     color: white;
 }
+
+/* Text alignment */
+.text-left    {text-align: left;}
+.text-center  {text-align: center;}
+.text-right   {text-align: right;}
+
