@@ -104,6 +104,9 @@ body{
     background-color:#192837;
     color: white;
 }
+.bg-featured{
+    background-color:#ffbe00;
+}
 
 /* Viewport Height */
 .tall-50  {min-height: 50vh;}
