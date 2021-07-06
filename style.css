@@ -28,6 +28,9 @@
     min-height: 10rem;
 }
 
+.landscape{padding-bottom: 65%}
+.portrait{padding-bottom: 125%}
+.square{padding-bottom: 100%}
 
 
 /* ----------------------Universal Styles & Utility Classes */
@@ -123,9 +126,6 @@ h2, h3, h4, h5, h6 {
     margin-bottom: 1rem;
     line-height: 1.1;
 }
-
-
-
 
 h2{
     font-size: 2.5rem;
