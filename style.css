@@ -111,6 +111,10 @@ body{
     background-color:#ffbe00;
 }
 
+.bg-light{
+    background-color:#E3ECF2;
+}
+
 /* Viewport Height */
 .tall-50  {min-height: 50vh;}
 .tall-60  {min-height: 60vh;}
