@@ -177,7 +177,7 @@ a:hover{
     color: rgb(120,120,125);
 }
 
-/* Normal Weight text */
+/* Text Weight */
 .font-weight-light { font-weight: 200; }
 .font-weight-normal { font-weight: normal; }
 .font-weight-extrabold { font-weight: 800; }
@@ -229,7 +229,8 @@ footer a{
 
 /* ----------------------------------------------- Icon Grid*/
 
-.fas{
+.fas,
+.fab{
     display: block;
     text-align: center;
     margin-bottom: 2rem;
