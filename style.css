@@ -176,12 +176,6 @@ a:hover{
     font-size: 1.2rem;
     color: rgb(120,120,125);
 }
-.quote-icon{
-    font-size: 6rem;
-    display: inline-block;
-    color: rgb(120,120,125);
-    line-height: 1,1;
-}
 
 /* Normal Weight text */
 .font-weight-light { font-weight: 200; }
@@ -202,6 +196,7 @@ header{
     background-image: url(/images/thesleepco4.jpg);
     background-size: cover;
     background-position: center;
+    padding: 1% 5%;
 }
 
 header h3{
@@ -249,4 +244,13 @@ input,
 textarea{
     width: 100%;
     display:block;
+}
+
+
+/* --------------------------------------- Testimonial Block*/
+.quote-icon{
+    font-size: 6rem;
+    display: inline-block;
+    color: rgb(120,120,125);
+    line-height: 1,1;
 }
