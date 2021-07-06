@@ -196,7 +196,7 @@ header{
     background-image: url(/images/thesleepco4.jpg);
     background-size: cover;
     background-position: center;
-    padding: 1% 5%;
+    padding: 2% 5%;
 }
 
 header h3{
@@ -204,9 +204,23 @@ header h3{
    line-height: 1;
 }
 
+nav a{
+    padding: 0.5rem;
+    display: inline-block;
+    border: none;
+}
+
+.logo h2{
+    margin-bottom: 0;
+}
+
 footer a{
     border: none;
 }
+
+
+
+
 
 
 /* --------------------------------------- Background Images*/
