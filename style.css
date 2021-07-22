@@ -289,6 +289,28 @@ footer a{
     padding: 1%;
   }
 
+.gallery .gallery-item {
+    border-bottom: none;
+}
+
+
+/* Background of gallery when popup active */
+/* Color of popup background */
+.lg-backdrop {
+    background-color:#192837;
+}
+
+/* Opacity of popup background */
+.lg-backdrop.in{
+    opacity: 0.9;
+}
+
+/* Color of image subtitles text */
+.lg-sub-html{
+    background-color: #192837;
+    color: #ffbe00;
+}
+
 /* --------------------------------------------------- Icon Grid*/
 
 .fas{
