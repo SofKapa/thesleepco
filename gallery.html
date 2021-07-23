@@ -6,21 +6,27 @@ gallery:
 - column-size: col-4_sm-12
   aspect-ratio: square
   background_image: /images/thesleepco1.jpg
+  type: dog
 - column-size: col-4_sm-12
   aspect-ratio: square
   background_image: /images/thesleepco2.jpg
+  type: dog
 - column-size: col-4_sm-12
   aspect-ratio: square
   background_image: /images/thesleepco4.jpg
+  type: dog
 - column-size: col-12
   aspect-ratio: landscape
   background_image: /images/thesleepco3.jpg
+  type: cat
 - column-size: col-6
   aspect-ratio: landscape
   background_image: /images/thesleepco1.jpg
+  type: rabbit
 - column-size: col-6
   aspect-ratio: landscape
   background_image: /images/thesleepco4.jpg
+  type: rabbit
 
 ---
 
@@ -56,11 +62,17 @@ gallery:
       <div class='gallery grid' id="lightgallery">
 
         {% for item in page.gallery %}
+
+        {% if item.type == 'dog' or item.type == 'cat' %}
+      
         <a class='{{item.column-size}} gallery-item' href="{{item.background_image}}">
           <div class='bg-image {{item.aspect-ratio}}' 
               style="background-image: url('{{item.background_image}}');">
           </div>
         </a>
+
+        {% endif %}
+
         {% endfor %}
 
       </div> 
