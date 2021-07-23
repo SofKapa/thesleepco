@@ -1,6 +1,6 @@
 ---
 layout: default
-popup-gallery: false 
+popup-gallery: true
 gallery:
 - column-size: col-4_sm-12
   aspect-ratio: square
@@ -60,11 +60,12 @@ gallery:
 
       </div> 
 
-    </section>
+   </section>
   
-  {% endif %}  
+  {% else %}  
 
-    <section class="padded">
+   <!-- Standard Gallery -->
+   <section class="padded">
       <h2>Standard Gallery</h2>
       <div class='gallery grid'>
 
@@ -79,6 +80,7 @@ gallery:
       </div> 
    </section>
 
+  {% endif %} 
 
    <!-- Another popup gallery style -->
      <!-- <div class='gallery grid' id="lightgallery-2">
